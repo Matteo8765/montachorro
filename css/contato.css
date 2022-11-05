@@ -19,16 +19,44 @@
 .contato form
 {
     width: 70%;
-    display: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.form
+{
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.contato input, textarea
+
+.form input, textarea
 {
+    border: 1px solid #f6aa5c;
+    border-radius: 0.2rem;
     resize: none;
+    margin: 0.5%;
+    padding: 1%;
     width: 100%;
 }
-.contato #nome, #sobrenome
+
+
+.form #nome, #sobrenome
 {
-    width: 50%;
+    width: 49%;
+}
+.form #submit
+{
+    background-color: #f6aa5c;
+    color: white;
+}.form #submit:hover
+{
+    background-color:  white;
+    color: #f6aa5c;
+}
+
+.form ::placeholder
+{
+    font-size: 1vw;
+    color: #ffd3a7;
+    font-family: MontAltMedium;
 }

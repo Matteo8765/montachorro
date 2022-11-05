@@ -6,7 +6,7 @@
 @font-face { font-family: MontAltExtraBold; src: url('../fonts/MontserratAlternates-ExtraBold.ttf'); }
 
 
-*
+*, *::before, *::after
 {
     font-family: MontAltReg;
     margin: 0;
