@@ -16,3 +16,19 @@
     align-items: center;
     justify-content: center;
 }
+.contato form
+{
+    width: 70%;
+    display: inherit;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contato input, textarea
+{
+    resize: none;
+    width: 100%;
+}
+.contato #nome, #sobrenome
+{
+    width: 50%;
+}
