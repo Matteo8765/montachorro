@@ -1,0 +1,48 @@
+.modelos
+{
+    padding: 6%;
+
+    background: white;
+
+
+    display: inherit;
+    flex-direction: inherit;
+    align-items: center;
+}
+
+.modelos h2
+{
+    font-family: MontAltBold;
+    font-size: 2.5vw;
+    color: #f6aa5c;
+}
+
+.modrow
+{
+    display: inherit;
+    flex-direction: row;
+    align-items: center;
+}
+.dog
+{   
+    width: 30vw;
+    display: inherit;
+    align-items: inherit;
+    flex-direction: column;
+    padding: 5%;
+} .dog img
+{
+    border-radius: 24%;
+    width: 100%;
+} .dog h3
+{
+    padding: 3% 0;
+    color: #f6aa5c;
+    font-family: MontAltBold;
+    font-size: 2.2vw;
+} .dog p
+{
+    font-size: 1.5vw;
+    color: #404040;
+    text-align: center;
+}

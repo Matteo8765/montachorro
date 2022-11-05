@@ -1,0 +1,66 @@
+@font-face { font-family: MontAltLight; src: url('../fonts/MontserratAlternates-Light.ttf'); }
+@font-face { font-family: MontAltReg; src: url('../fonts/MontserratAlternates-Regular.ttf'); }
+@font-face { font-family: MontAltMedium; src: url('../fonts/MontserratAlternates-Medium.ttf'); }
+@font-face { font-family: MontAltSemi; src: url('../fonts/MontserratAlternates-SemiBold.ttf'); }
+@font-face { font-family: MontAltBold; src: url('../fonts/MontserratAlternates-Bold.ttf'); }
+@font-face { font-family: MontAltExtraBold; src: url('../fonts/MontserratAlternates-ExtraBold.ttf'); }
+
+
+*
+{
+    font-family: MontAltReg;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#tudocontainer
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner
+{
+    height: 33vw;
+    padding: 3%;
+
+    background-image: url("../img/foxbanner.jpg");
+    background-size: cover;
+    
+    color: white;
+
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: center;
+}
+.banner h2
+{
+    font-family: MontAltExtraBold;
+    font-size: 5.5vw;
+}
+.banner h3
+{
+    font-family: MontAltReg;
+    font-size: 3.5vw;
+}
+
+.calltoaction
+{
+    height: 30vw;
+    padding-left: 6%;
+    padding-right: 12%;
+
+    background: white;
+    font-size: 3vw;
+    color: #404040;
+
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: center;
+
+}
+
+

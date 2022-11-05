@@ -1,0 +1,39 @@
+.banner
+{
+    background-image: url("../img/dogebanner.jpg");
+    justify-content: end;
+}
+
+.precos
+{
+    padding: 8%;
+
+    background: white;
+    font-size: 2.2vw;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} table
+{
+    
+    text-align: center;
+    border: 1px solid red;
+    width: 70%;
+} th
+{   
+    background: #f6aa5c;
+    color: white;
+    font-family: MontAltBold;
+}
+th, td
+{
+    outline: 3px solid #f6aa5c;
+    line-height: 2em;
+}
+td
+{
+    font-family: MontAltSemi;
+    color: #DA832A;
+}
