@@ -3,3 +3,18 @@
     background-image: url("../img/bannerblog.jpg");
     justify-content: end;
 }
+
+.materias
+{
+    padding: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.materias h2
+{
+    font-family: MontAltBold;
+    font-size: 2.5vw;
+    color: #f6aa5c;
+    text-align: left;
+}
